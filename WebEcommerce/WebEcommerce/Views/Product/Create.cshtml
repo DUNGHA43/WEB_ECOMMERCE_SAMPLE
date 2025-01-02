@@ -1,0 +1,75 @@
+﻿@model ProductDTO
+
+<div class="row">
+    <div class="col-md-8 mx-auto border p-3">
+        <h2 class="text-center mb-5">Thêm mới sản phẩm</h2>
+
+
+        <form method="post" enctype="multipart/form-data">
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Tên sản phẩm</label>
+                <div class="col-sm-8">
+                    <input asp-for="name" class="form-control" />
+                    <span asp-validation-for="name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Thương hiệu</label>
+                <div class="col-sm-8">
+                    <input asp-for="brand" class="form-control" />
+                    <span asp-validation-for="brand" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Loại sản phẩm</label>
+                <div class="col-sm-8">
+                    <select class="form-select" asp-for="category">
+                        <option value="Other">Khác</option>
+                        <option value="Phones">Điện Thoại</option>
+                        <option value="Other">Máy tính</option>
+                        <option value="Accessories">Phụ kiện</option>
+                        <option value="Printers">Máy in</option>
+                        <option value="Camera">Máy ảnh</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Giá tiền</label>
+                <div class="col-sm-8">
+                    <input asp-for="price" class="form-control" />
+                    <span asp-validation-for="price" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Mô tả</label>
+                <div class="col-sm-8">
+                    <textarea asp-for="description" class="form-control"></textarea>
+                    <span asp-validation-for="description" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3"> 
+                <label class="col-sm-4 col-form-label">Chọn ảnh</label>
+                <div class="col-sm-8">
+                    <input asp-for="imageFileName" class="form-control" />
+                    <span asp-validation-for="imageFileName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3" style="display: flex; justify-content: flex-end"> 
+                <div class="col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-success" style="width=50%">Thêm mới</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-danger" asp-controller="Product" asp-action="Index" role="button">
+                        Huỷ
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

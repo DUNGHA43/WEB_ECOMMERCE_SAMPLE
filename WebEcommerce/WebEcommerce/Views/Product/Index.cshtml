@@ -1,0 +1,99 @@
+﻿@model List<Product>
+@{
+    int pageIndex = (int)ViewData["PageIndex"]!;
+    int totalPages = (int)ViewData["TotalPages"]!;
+    string Sort = (string)ViewData["Sort"]!;
+    string orderBy = (string)ViewData["OrderBy"]!;
+
+    string GetSortIcon(string tableColumn)
+    {
+        if(tableColumn != Sort){
+            return "";
+        }
+
+        if (orderBy == "asc")
+        {
+            return "▲";
+        }
+        else
+        {
+            return "▼";
+        }
+    }
+}
+
+<h2 class="text-center mb-5">DANH SÁCH SẢN PHẨM</h2>
+
+<div class="row mb-5">
+    <div class="col">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" name="sname" placeholder="Nhập tên sản phẩm cần tìm..." aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit" style="width:200px">Tìm kiếm</button>
+        </form>
+    </div>
+    <div class="col" style="text-align: right">
+        <a class="btn btn-primary" asp-controller="Product" asp-action="Create">Thêm mới</a>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="text-center" style="cursor: pointer" onclick="sortTable('id')">ID @GetSortIcon("id")</th>
+            <th class="text-center" style="cursor: pointer" onclick="sortTable('name')">Tên sản phẩm @GetSortIcon("name")</th>
+            <th class="text-center" style="cursor: pointer" onclick="sortTable('brand')">Thương hiệu @GetSortIcon("brand")</th>
+            <th class="text-center">Loại sản phẩm</th>
+            <th class="text-center" style="cursor: pointer" onclick="sortTable('price')">Giá @GetSortIcon("price")</th>
+            <th class="text-center" >Hình ảnh</th>
+            <th class="text-center" style="cursor: pointer" onclick="sortTable('createdate')">Ngày tạo @GetSortIcon("createdate")</th>
+            <th class="text-center">Lựa chọn</th>
+        </tr> 
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-center" style="vertical-align: middle;">@item.id</td>
+                <td class="text-center" style="vertical-align: middle;">@item.name</td>
+                <td class="text-center" style="vertical-align: middle;">@item.brand</td>
+                <td class="text-center" style="vertical-align: middle;">@item.category</td>
+                <td class="text-center" style="vertical-align: middle;">@item.price</td>
+                <td class="text-center" style="vertical-align: middle;"><img src="/products/@item.imageFileName" style="width: 100px; height: 100px" /></td>
+                <td class="text-center" style="vertical-align: middle;">@item.createDate.ToString("MM/dd/yyyy")</td>
+                <td class="text-center" style="vertical-align: middle;">
+                    <a class="btn btn-primary" asp-controller="Product" asp-action="Edit" asp-route-id="@item.id">Sửa</a>
+                    <a class="btn btn-danger" asp-controller="Product" asp-action="Delete" 
+                    asp-route-id="@item.id" onclick="return confirm('Bạn có chắc chắn xoá không?')">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        @for(int i = 1; i <= totalPages; i++){
+            string active = "";
+            if(i == pageIndex){
+                active = "active";
+            }
+            <li class="page-item @active">
+                <a class="page-link" asp-controller="Product" asp-action="Index" asp-route-pageIndex="@i">@i</a>
+            </li>
+        }
+    </ul>
+</nav>
+
+<script>
+    function sortTable(columnName) {
+        let orderby = "asc";
+        let currentSort = "@Sort";
+        let currentOrderBy = "@orderBy";
+        if(columnName === currentSort){
+            if (currentOrderBy == "asc")
+            { orderby = "desc"; }
+            else { orderby = "asc"; }
+        }
+        window.location.href = "/Product/Index?sort=" + columnName + "&orderby=" + orderby;
+    }
+</script>
