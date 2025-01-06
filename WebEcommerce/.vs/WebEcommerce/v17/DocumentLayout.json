@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\models\\storesearchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\models\\storesearchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\dungh\\documents\\asp_core_learn\\project_learn\\web_ecommerce_sample\\webecommerce\\webecommerce\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6C7FC0-8015-4FA5-9D5D-FEA81A6426A5}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 280,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,100 +42,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "WebEcommerce\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T03:50:30.998Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Views\\Store\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebEcommerce\\Views\\Store\\Details.cshtml",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Views\\Store\\Details.cshtml",
-              "RelativeToolTip": "WebEcommerce\\Views\\Store\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebEcommerce\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebEcommerce\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T16:31:10.327Z"
+              "WhenOpened": "2025-01-06T09:10:26.787Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebEcommerce\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebEcommerce\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T16:28:56.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Models\\Product.cs",
-              "RelativeToolTip": "WebEcommerce\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxEAAAA1AAAAAAAAAA==",
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Models\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Models\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Models\\LoginDTO.cs",
+              "RelativeToolTip": "WebEcommerce\\Models\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T16:27:59.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Models\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Models\\ProductDTO.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Models\\ProductDTO.cs",
-              "RelativeToolTip": "WebEcommerce\\Models\\ProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T16:27:59.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StoreSearchModel.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Models\\StoreSearchModel.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Models\\StoreSearchModel.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Models\\StoreSearchModel.cs",
-              "RelativeToolTip": "WebEcommerce\\Models\\StoreSearchModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T16:08:14.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StoreController.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Controllers\\StoreController.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Controllers\\StoreController.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Controllers\\StoreController.cs",
-              "RelativeToolTip": "WebEcommerce\\Controllers\\StoreController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T16:05:43.722Z",
+              "WhenOpened": "2025-01-06T09:06:39.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Views\\Store\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebEcommerce\\Views\\Store\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Views\\Store\\Index.cshtml",
-              "RelativeToolTip": "WebEcommerce\\Views\\Store\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADoAAAAZAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Program.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Program.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Program.cs",
+              "RelativeToolTip": "WebEcommerce\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T08:56:30.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebEcommerce\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebEcommerce\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T15:49:44.891Z"
+              "WhenOpened": "2025-01-06T08:41:39.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebEcommerce\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebEcommerce\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAADwv0IAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T08:35:13.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebEcommerce\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAmwFAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T08:28:12.637Z",
+              "EditorCaption": ""
             }
           ]
         }
