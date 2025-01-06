@@ -2966,11 +2966,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dungh\\source\\repos\\WebEcommerce\\WebEcommerce\\WebEcommerce.csproj",
+      "projectUniqueName": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\WebEcommerce.csproj",
       "projectName": "WebEcommerce",
-      "projectPath": "C:\\Users\\dungh\\source\\repos\\WebEcommerce\\WebEcommerce\\WebEcommerce.csproj",
+      "projectPath": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\WebEcommerce.csproj",
       "packagesPath": "C:\\Users\\dungh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dungh\\source\\repos\\WebEcommerce\\WebEcommerce\\obj\\",
+      "outputPath": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,39 @@
+﻿@model Product
+@{
+}
+
+<div class="row">
+    <div class="col-md-4 text-center">
+        <img src="/products/@Model.imageFileName" class="img-fluid mb-3" alt="..." width="250"/>
+    </div>
+    <div class="col-md-8">
+        <h3 class="mb-3">@Model.name</h3>
+        <h3 class="mb-3">@(Model.price)$</h3>
+        <button type="button" class="btn btn-warning btn-sm">
+            Thêm vào giỏ hàng <i class="bi bi-cart4"></i>
+        </button>
+
+        <hr/>
+
+         <div class="row mb-3">
+             <div class="col-sm-3 fw-bold">
+                 Thương hiệu
+             </div>
+             <div class="col-sm-9">
+                @Model.brand
+             </div>
+         </div>
+
+        <div class="row mb-3">
+            <div class="col-sm-3 fw-bold">
+                Loại sản phẩm
+            </div>
+            <div class="col-sm-9">
+                @Model.category
+            </div>
+        </div>
+
+        <div class="fw-bold">Mô tả</div>
+        <div style="white-space: pre-line">@Model.description</div>
+    </div>
+</div>

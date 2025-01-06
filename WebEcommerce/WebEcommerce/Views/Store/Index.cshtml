@@ -1,8 +1,47 @@
-﻿@{
+﻿@model StoreSearchModel
+@{
+    int pageIndex = (int)ViewData["PageIndex"]!;
+    int totalPages = (int)ViewData["TotalPages"]!;
 }
-<div class="row mb-5 g-3">
+
+
+ <form class="row g-3 mb-3" style="margin-top:10px">
+     <div class="col-lg-2 col-md-4">
+         <select class="form-select" name="brand" asp-for="Brand" onchange="this.form.submit()">
+              <option value="">Tất cả</option>
+              <option value="Samsung">Samsung</option>
+              <option value="Apple">Apple</option>
+              <option value="Nokia">Nokia</option>
+              <option value="HP">HP</option>
+          </select>
+     </div>
+    <div class="col-lg-2 col-md-4">
+        <select class="form-select" name="category" asp-for="Category" onchange="this.form.submit()">
+            <option value="">Tất cả</option>
+            <option value="Phones">Điện thoại</option>
+            <option value="Computers">Máy tính</option>
+            <option value="Accessories">Phụ kiện</option>
+            <option value="Cameras">Máy ảnh</option>
+            <option value="Other">Khác</option>
+        </select>
+    </div> 
+    <div class="col-lg-2 col-md-4">
+        <select class="form-select" name="sort" asp-for="Sort" onchange="this.form.submit()">
+            <option value="newest">Mới nhất</option>
+            <option value="price_asc">Giá: Thấp đến Cao</option>
+            <option value="price_des">Giá: Cao đến Thấp</option>
+        </select>
+    </div>
+    <div class="col-lg-6 col-md-12 d-flex">
+        <input class="form-control me-2" name="search" asp-for="Search" placeholder="Nhập tên sản phẩm..." />
+        <button class="btn btn-outline-success" style="width: 200px">Tìm kiếm</button>
+    </div>
+ </form>
+
+
+<div class="row mb-5 g-3" style="margin-top:10px">
     @foreach (var product in ViewBag.Products)
-    {
+    { 
         <div class="col-lg-3 col-md-6">
             <div class="rounded border shadow p-3 text-center h-100">
                 <img src="/products/@product.imageFileName" class="img-fluid" alt="..."
@@ -13,11 +52,31 @@
                     Thương hiệu: @product.brand, Loại sản phẩm: @product.category
                 </p>
                 <h4 class="mb-3">@(product.price)$</h4>
-                <a class="btn btn-primary btn-sm mb-2" href="#" role="button">Chi tiết</a>
+                <a class="btn btn-primary btn-sm mb-2" asp-controller="Store" asp-action="Details"
+                asp-route-id="@product.id" role="button">Chi tiết</a>
                 <button type="button" class="btn btn-warning btn-sm mb-2">
                     Thêm vào giỏ hàng <i class="bi bi-cart4"></i>
                 </button>
             </div>
         </div>
     }
+</div>
+<div class="row mb-5 g-3" style="margin-top:10px">
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        @for (int i = 1; i <= totalPages; i++)
+        {
+            string active = "";
+            if (i == pageIndex)
+            {
+                active = "active";
+            }
+            <li class="page-item @active">
+                    <a class="page-link" asp-controller="Store" asp-action="Index" asp-route-category="@Model.Category"
+                       asp-route-search="@Model.Search" asp-route-brand="@Model.Brand"
+                       asp-route-sort="@Model.Sort" asp-route-pageIndex="@i">@i</a>
+            </li>
+        }
+    </ul>
+</nav>
 </div>

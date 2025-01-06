@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1ALOAN1zvXM=",
+  "dgSpecHash": "DQWrY3qtRME=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dungh\\source\\repos\\WebEcommerce\\WebEcommerce\\WebEcommerce.csproj",
+  "projectFilePath": "C:\\Users\\dungh\\Documents\\ASP_CORE_LEARN\\PROJECT_LEARN\\WEB_ECOMMERCE_SAMPLE\\WebEcommerce\\WebEcommerce\\WebEcommerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dungh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\dungh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
